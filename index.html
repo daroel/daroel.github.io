@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>oracreatif | Always Learning</title>
+
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #fff">
+      <div class="container p-2">
+        <a class="navbar-brand" href="#">
+          <img src="../learn-portfolio2/frontend/images/orakreatif.png" alt="orakreatif" height="20" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center text-light img-fluid" id="jumbotron" style="background: url(./frontend/images/background.jpg)">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="container mt-5">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <img src="../learn-portfolio2/frontend/images/orakreatifpicture1.png" alt="orakreatif" width="200" class="img-thumbnail rounded-circle mb-3" />
+            <h2>About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus ipsum assumenda repellat culpa possimus? Dolorem in aliquid voluptatem deleniti veniam.</p>
+          </div>
+          <div class="col-md-4">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus ipsum assumenda repellat culpa possimus? Dolorem in aliquid voluptatem deleniti veniam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Blog -->
+    <section id="blog" class="blog">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col mb-3 text-white">
+            <h2>Blog</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="../learn-portfolio2/frontend/images/1.jpg" class="card-img-top" alt="macbook1" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="../learn-portfolio2/frontend/images/2.jpg" class="card-img-top" alt="macbook2" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="../learn-portfolio2/frontend/images/3.jpg" class="card-img-top" alt="macbook3" />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Blog -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row text-center mb-3 mt-5">
+          <div class="col">
+            <h2>Contact</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary col-md-12">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- footer -->
+    <footer class="footer text-light">
+      <div class="row text-center justify-content-between">
+        <div class="col-md-4">
+          <p>&copy; 2021 - orakreatif</p>
+        </div>
+        <div class="col-md-4">
+          <p>Design by | <a href="https://www.instagram.com/darularqamalbasri/" class="text-white fw-bold" style="text-decoration: none">Darul Arqam Albasri</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- AKhir Footer -->
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  </body>
+</html>

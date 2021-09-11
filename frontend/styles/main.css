@@ -1,0 +1,38 @@
+.btn {
+  background-color: #00af9a;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #240876;
+}
+
+.jumbotron {
+  min-height: 630px;
+  padding-top: 230px;
+}
+
+.about {
+  min-height: 500px;
+}
+
+.blog {
+  background: -webkit-gradient(linear, left top, left bottom, from(#240876), to(#00af9a));
+  background: linear-gradient(#240876, #00af9a);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #00af9a;
+  padding: 10px;
+}
+
+.footer p {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
