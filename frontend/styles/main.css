@@ -36,4 +36,15 @@
 .footer p {
   margin-top: 20px;
 }
+
+.jumbotron-blog {
+  min-height: 300px;
+  padding-top: 150px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#240876), to(#00af9a));
+  background: linear-gradient(#240876, #00af9a);
+}
+
+.article {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=main.css.map */
